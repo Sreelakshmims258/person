@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/074c20286e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Developer</p>
+          <h1>Hi I'm <span>Sreelakshmi </span><br />M S From Kerala</h1>
+        </div>
+      </div>
+    </div>
+
+    <!--header section complete-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/myphoto.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p></p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML-90%</span><br /></li>
+                <li><span>CSS-90%</span><br /></li>
+                <li><span>Bootstrap-70%</span><br /></li>
+                <li><span>Javascript-70%</span><br /></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Beginner</span><br /></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Bachilor of electronics and communication</span
+                  ><br />2019-2023 Goverment Engineering college Barton Hill
+                  Trivandrum(KTU)
+                </li>
+                <li>
+                  <span>Web</span><br />2017-2019 Goverment Higher Secondary
+                  School Thirunellor Cherthala,Alappuzha
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------end of about-->
+
+    <!-------service section-->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Working exclusively as a Designer, and my knowledge as a front-end
+              developer allows me to push this platform further.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-hashtag"></i>
+            <h2>Web Design</h2>
+            <p>
+              Social media platforms enable users to connect with friends, share
+              content, and engage in online communities.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Networking</h2>
+            <p>
+              Connect students with alumni or professionals in the field for
+              mentorship.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----end of service section-->
+
+    <!---portfolio-->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/image of moz.png" />
+            <div class="layer">
+              <h3>Social media Website</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/imageoffb.png" />
+            <div class="layer">
+              <h3>Social media Website</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/image oftwi.png" />
+            <div class="layer">
+              <h3>Social media Website</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/netfliximage.png" />
+            <div class="layer">
+              <h3>Social media Website</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-----end of portfolio-->
+
+    <!-----contact section-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> Sreelakshmims258@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> 9207623293</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Messgae"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-----end of contact-->
+
+      <!---footer section-->
+
+      <div class="copyright">
+        <p>Copyright <span class="icon"> © </span> Sreelakshmi.</p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyJLSlMSAckC8WkHg8qvQfyESd-TJ1qiT5B5Yk5bwHK5egQKsnAfvZv0X4vY6TYAB_t/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent succesfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
